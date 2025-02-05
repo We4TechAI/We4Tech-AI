@@ -77,7 +77,7 @@ const Index = () => {
               Transforming Business Through AI Innovation
             </h1>
             <p className="text-xl md:text-2xl text-gray-300/90 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Empowering your business with next-generation artificial intelligence solutions
+              Empowering your business with next-generation artificial intelligence solutions.Our AI solutions have helped businesses reduce operational costs by 30%.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <Button
