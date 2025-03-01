@@ -13,6 +13,7 @@ import Terms from "./pages/Terms";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const queryClient = new QueryClient();
 
@@ -36,6 +37,7 @@ const App = () => (
       </BrowserRouter>
     </TooltipProvider>
     <Analytics/>
+    <SpeedInsights/>
   </QueryClientProvider>
 );
 
